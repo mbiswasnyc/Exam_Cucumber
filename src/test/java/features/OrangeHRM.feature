@@ -15,7 +15,8 @@ Feature: OrangeHRM application
 
     Given user is on OrangeHRM homepage
     When user enter invalid <userName> and <passWord>
-    Then Invalid credentials massage will appear
+    Then user cannot login to dashboard page
+    And Invalid credentials massage will appear
     Examples:
       | userName |  | passWord  |
       | Admin1   |  | admin123  |
@@ -28,7 +29,7 @@ Feature: OrangeHRM application
     Given user is on OrangeHRM homepage
     When user enter valid <userName> and <passWord>
     Then user can login to dashboard page
-    Then user can use my info button
+    And user can use my info button
 
     Examples:
       | userName |  | passWord  |

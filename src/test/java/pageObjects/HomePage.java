@@ -25,7 +25,7 @@ public class HomePage
     {
         driver.findElement(logInBtn).click();
     }
-    public Boolean urlContainOrangeHRM()
+    public Boolean urlIsOrangeHRMHomePage()
     {
         return driver.getCurrentUrl().equalsIgnoreCase(homePageUrl);
     }
@@ -33,4 +33,5 @@ public class HomePage
     {
         return driver.findElement(errorMassage).getText();
     }
+
 }

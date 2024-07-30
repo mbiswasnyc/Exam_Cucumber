@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -22,7 +23,7 @@ public class HomePageStepDefinitions
 
     @Given("user is on OrangeHRM homepage")
     public void user_is_on_orange_hrm_homepage() {
-        Assert.assertTrue(homePage.urlContainOrangeHRM());
+        Assert.assertTrue(homePage.urlIsOrangeHRMHomePage());
     }
     @When("^user enter valid (.+) and (.+)$")
     public void user_enter_valid_user_name_and_password(String userName, String passWord) {
@@ -35,7 +36,12 @@ public class HomePageStepDefinitions
         homePage.clickLogInBtn();
         Assert.assertEquals(homePage.getErrorMassage(), "Invalid credentials");
     }
-    @Then("Invalid credentials massage will appear")
+    @Then("user cannot login to dashboard page")
+    public void user_cannot_login_to_dashboard_page()
+    {
+       Assert.assertTrue(homePage.urlIsOrangeHRMHomePage());
+    }
+    @And("Invalid credentials massage will appear")
     public void Invalid_credentials_massage_will_appear()
     {
         Assert.assertEquals(homePage.getErrorMassage(), "Invalid credentials");
