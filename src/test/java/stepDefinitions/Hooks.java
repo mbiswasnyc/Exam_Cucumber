@@ -12,11 +12,16 @@ import utils.TestContextSetup;
 import java.io.File;
 import java.io.IOException;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 public class Hooks {
     public TestContextSetup testContextSetup;
+    public Logger log;
     public Hooks(TestContextSetup testContextSetup)
     {
         this.testContextSetup = testContextSetup;
+        this.log = LogManager.getLogger(this.getClass().getName()); // added for log
     }
 
     @After
@@ -31,6 +36,7 @@ public class Hooks {
             File sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             byte [] fileContent = FileUtils.readFileToByteArray(sourcePath);
             scenario.attach(fileContent, "image/png", "image");
+            log.info("........:::::::: Screenshot is generated ::::::::........");
         }
     }
 }

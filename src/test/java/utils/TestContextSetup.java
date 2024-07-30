@@ -1,5 +1,6 @@
 package utils;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import pageObjects.PageObjectManager;
 
@@ -16,5 +17,6 @@ public class TestContextSetup
         testBase = new TestBase();
         pageObjectManager = new PageObjectManager(testBase.WebDriverManager());
         genericUtils = new GenericUtils(testBase.WebDriverManager());
+        testBase.log = LogManager.getLogger(this.getClass().getName()); // added for log
     }
 }

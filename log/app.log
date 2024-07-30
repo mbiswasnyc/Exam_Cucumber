@@ -1,0 +1,88 @@
+13:58:02.774 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:04.361 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+13:58:04.646 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+13:58:07.710 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:08.731 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+13:58:08.999 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+13:58:12.347 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:13.693 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+13:58:13.971 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+13:58:17.598 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:18.658 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+13:58:18.931 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+13:58:22.077 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:23.484 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+13:58:23.754 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+13:58:24.368 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - My info option is usable on dashboard page
+13:58:27.631 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+13:58:29.111 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+13:58:29.414 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+13:58:30.806 [main]INFO  stepDefinitions.PIMPageDefinitions - user landed on PIM page
+14:02:47.313 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:02:48.667 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:02:59.001 [main]INFO  stepDefinitions.Hooks - Screenshot is generated
+14:04:38.145 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:04:39.484 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:04:39.747 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:04:42.718 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:04:43.766 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:04:44.038 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:04:47.006 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:04:47.430 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:04:48.560 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:04:51.625 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:04:52.757 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:04:52.992 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:04:56.134 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:04:57.566 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:04:57.834 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:04:58.620 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - My info option is usable on dashboard page
+14:05:01.711 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:05:03.315 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:05:03.661 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:05:04.077 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user click PIM page option
+14:05:14.379 [main]INFO  stepDefinitions.Hooks - Screenshot is generated
+14:06:23.544 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:24.912 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:06:25.192 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:06:28.356 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:29.377 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:06:29.606 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:06:33.322 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:34.652 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:06:34.919 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:06:38.059 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:38.461 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:06:39.319 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:06:42.339 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:43.787 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:06:44.069 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:06:44.620 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - My info option is usable on dashboard page
+14:06:54.882 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:06:56.258 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:06:56.532 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:06:57.681 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user click PIM page option
+14:06:57.964 [main]INFO  stepDefinitions.PIMPageDefinitions - user landed on PIM page
+14:06:58.085 [main]INFO  stepDefinitions.PIMPageDefinitions - Page title is PIM
+14:07:36.302 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:07:37.634 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:07:47.932 [main]INFO  stepDefinitions.Hooks - ........:::::::: Screenshot is generated ::::::::........
+14:07:52.594 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:07:53.630 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:07:53.863 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:07:56.982 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:07:58.311 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:07:58.582 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:08:01.660 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:08:02.827 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter invalid credentials
+14:08:03.163 [main]INFO  stepDefinitions.HomePageStepDefinitions - user see error massage
+14:08:06.070 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:08:07.463 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:08:07.731 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:08:08.485 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - My info option is usable on dashboard page
+14:08:11.560 [main]INFO  stepDefinitions.HomePageStepDefinitions - user landed on home page
+14:08:12.984 [main]INFO  stepDefinitions.HomePageStepDefinitions - user enter valid credentials
+14:08:13.261 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user landed on dashboard page
+14:08:14.245 [main]INFO  stepDefinitions.DashboardPageStepDefinitions - user click PIM page option
+14:08:14.666 [main]INFO  stepDefinitions.PIMPageDefinitions - user landed on PIM page
+14:08:14.678 [main]INFO  stepDefinitions.PIMPageDefinitions - Page title is PIM
