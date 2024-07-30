@@ -9,11 +9,15 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class TestBase {
     public WebDriver driver;
+    public Logger log;
 
     public WebDriver WebDriverManager() throws IOException {
+        log = LogManager.getLogger(this.getClass().getName());
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src/test/resources/global.properties");
         // FileInputStream class convert .property file to inputStream object // System.getProperty("user.dir")  and   // only before src
         Properties prop = new Properties();
@@ -37,6 +41,7 @@ public class TestBase {
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             driver.get(url);
+
         }
         return driver;
     }
